@@ -78,17 +78,16 @@
 
 // 5 - Crear una función que reciba una palabra y un número por parámetro e imprima por consola  esa palabra la cantidad correspondiente al número indicado.
 
+// function imprimirPalabra(palabra,cantidad) {
+//     for (let i = 0; i < cantidad; i++){
+//         console.log(palabra);
+        
+//     }
+    
+// }
 
 
-
-
-
-
-
-
-
-
-
+// imprimirPalabra("palabra",22)
 
 // ==============================================================================================
 
@@ -108,17 +107,6 @@
 
 
 // conteo()
-
-
-
-// for (let i=0; i < numeros.length; i++){
-//     if (numeros [i]==5){
-//         continue
-//     }
-//     console.log(numeros[i]);
-    
-// }
-
 
 
 // ===========================================================================================
@@ -142,6 +130,23 @@
 
 
 // conteo()
+
+// ============================================================================================
+
+// 8 - Crea una función que reciba un array de números y un número por parámetro e imprima por consola cada número del array multiplicado por el número pasado por parámetro.
+
+const array = [1,2,3,4,5,6,7,8,9,10]
+
+function multiplicadorArray(array,numero) {
+   for (i = 0; i < array.length; i++){
+    console.log([i]*numero);
+    
+   }
+
+}
+
+multiplicadorArray(array,3)
+
 
 
 
